@@ -60,9 +60,18 @@ button{
   margin-top: 30px;
   box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
 }
-button:hover{
+/* button:hover{
   background-color: #22a6b3;
+} */
+
+.btn_green:hover {
+  color: #2ed573;
 }
+
+.btn_red:hover{
+  color: #ff4757;
+}
+
 .btn_div{
   width: 100%;
   display: flex;
@@ -74,7 +83,7 @@ button:hover{
   .center_div{
     width: 55%;;
   }
-  button {
+  Button {
     min-height: 40px;
     width: 20vw;
     color: #fff;
